@@ -5,6 +5,14 @@
     font-family: "Open Sans", sans-serif;
 }
 
+/* rules button general */
+
+.button-blue{
+    background-color:#0060ff;
+    color: white;
+    padding:0.5rem;
+    margin-left:1rem;
+}
 /* general rules for fix header */
 
 .header-containerflex {
@@ -12,60 +20,55 @@
     justify-content: space-between;
     align-items: center;
     min-height: 70px;
-	padding: 10px 0;
-    border: solid black;
-
-    /* debug rules */
+    
 }
 
 .header-containerflex, li,  a{
+
     text-decoration: none;
     list-style: none;
-    display: flex;
+    display: inline;
+    padding: 2px ;
     
 }
 
 
 #topnav{
+
    display: flex;
-    justify-content: space-between;
     align-items: center;
-    min-height: 20px; 
-    width: 100%; 
+    font-size: 12px;
     
 }
 
-.header-logo, {
-    width: 40%;
-    text-align: center;
+.header-logo {
+    width: 10%;
     display: flex;
-    align-items: :start;
-    gap: 10px;
+    justify-content: flex-start;
+   margin-right: 20px;
+    margin-left: 10px;
 }
 
 
 .header-link-left{
+
     width: 40%;
-    text-align: center;
+    text-align: left;
     align-items: center;
-    gap: 20px;
 }
 
 .header-link-right{
-    width: 40%;
+
+    width: 50%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 20px;
+    
+}
+/* button "Inizia" header */
+.top{
+    margin-right: 10px;
 }
 
-.header-link-start{
-    
-    height: 100%;
-    background-color: rgb(71, 71, 71);
-    border-radius: 5px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 10px;
-}
+
+
