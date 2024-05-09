@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* general rules for fix header */
+
+.header-containerflex {
+    
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+	padding: 10px 0;
+    border: solid black;
+
+    /* debug rules */
+}
+
+.header-containerflex, li,  a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    
+}
+
+
+#topnav{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20px; 
+    width: 100%; 
+    
+}
+
+.header-logo, {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    align-items: :start;
+    gap: 10px;
+}
+
+
+.header-link-left{
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-link-right{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-link-start{
+    
+    height: 100%;
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
