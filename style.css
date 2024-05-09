@@ -70,5 +70,67 @@
     margin-right: 10px;
 }
 
+/* fine prima sezione menu nav header */
+
+
+/* rules container general seconda sezione header */
+
+.bg-acqua{
+    background-color:rgb(167, 197, 223);
+}
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+    /* debug */
+    border: solid black;
+}
+
+.row  {
+    display: flex;
+    justify-content: space-between;
+    }
+
+    /* form title */
+
+    .title {
+        margin-bottom: 48px;
+        font-size: 50px;
+    }
+    /* img jumbo */
+
+    img {
+        max-width: 750px;
+    }
+    
+
+    /* colonne content header seconda sezione*/
+
+.col-a{
+    width: calc(100% / 3);
+
+      /* debug */
+   
+      border: solid black;
+    }
+.col-b{
+     width: calc((100% / 3)*2);
+
+     /* debug */
+   
+    border: solid black;
+   
+}
+
+   
+    
+    /* debug */
+   
+    border: solid black;
+
+
+
+
+
 
 
