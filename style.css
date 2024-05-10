@@ -198,6 +198,12 @@ header{
 
                 /* value radio buttons da inserire all active cambio tonalita blu*/
 
+    /* sezione enterprise dopo colonne prezzi e mensili */
+
+    .flex{
+        display: flex;
+    }
+
   
 
 
