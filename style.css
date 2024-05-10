@@ -162,8 +162,14 @@ header{
   
     padding: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-between;
+    flex-wrap: wrap;
     /* debug */
     background-color: rgb(9, 181, 49);
+    
+    
 }
 
 
@@ -172,11 +178,7 @@ header{
 
 }
 .column-big{
-   
-    display: flex;
-    justify-content:  center;
-    flex-wrap: wrap;
-    
+   display: flex;
 }
 
  .column {
