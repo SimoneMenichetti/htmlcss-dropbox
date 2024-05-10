@@ -27,13 +27,22 @@ p{
 
 /* general rules for fix header */
 
-
+header{
+    
+    position:fixed;
+    z-index: 900;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+   
+}
 .header-containerflex {
     
     justify-content: space-between;
     align-items: center;
     min-height: 70px;
-    
+   
     
 }
 
@@ -90,8 +99,12 @@ p{
 
 .bg-acqua{
     background-color:rgb(167, 197, 223);
+    margin-top: 20px;
 }
 
+.bg-acqua h1{
+    margin-top: 100px;
+}
 .col-a .icon{
     font-size: 70px;
     text-align: left;
@@ -146,9 +159,11 @@ p{
 /*  MAIN SECTION */
 
 .container-column{
-    background-color: rgb(9, 181, 49);
+  
     padding: 10px;
     text-align: center;
+    /* debug */
+    background-color: rgb(9, 181, 49);
 }
 
 
@@ -160,23 +175,25 @@ p{
    
     display: flex;
     justify-content:  center;
+    flex-wrap: wrap;
     
 }
 
  .column {
-
-    min-height: 400px;
-    border: white 1px dotted;
-    min-width: 200px;
-    background-color: rgb(6, 93, 60);
+    
+    width: calc(100% / 3);
     align-items: center;
     margin: 10px 10px;
+    /* dbug */
+    background-color: rgb(6, 93, 60);
+    border: white 1px dotted;
+    
 }
 
-/* value radio buttons */
-.radio-buttons{
+                /* value radio buttons da inserire all active cambio tonalita blu*/
+
   
-}
+
 
 
 
