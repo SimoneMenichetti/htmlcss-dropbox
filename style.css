@@ -166,6 +166,7 @@ header{
     flex-direction: column;
     justify-content:  space-between;
     flex-wrap: wrap;
+    font-size: 12px;
     /* debug */
     background-color: rgb(9, 181, 49);
     
@@ -179,13 +180,16 @@ header{
 }
 .column-big{
    display: flex;
+   justify-content: center;
+  
 }
 
  .column {
     
     width: calc(100% / 3);
-    align-items: center;
+    align-items: baseline;
     margin: 10px 10px;
+    text-align: left;
     /* dbug */
     background-color: rgb(6, 93, 60);
     border: white 1px dotted;
