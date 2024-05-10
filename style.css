@@ -151,13 +151,15 @@ p{
     text-align: center;
 }
 
-.column-big{
-    width: calc(100% / 3);
-    display: flex;
-    justify-content: space-around;
-    
 
-	
+.container-column > h2{
+ margin-top:50px;
+
+}
+.column-big{
+   
+    display: flex;
+    justify-content:  center;
     
 }
 
@@ -165,11 +167,16 @@ p{
 
     min-height: 400px;
     border: white 1px dotted;
-    min-width: 100px;
+    min-width: 200px;
     background-color: rgb(6, 93, 60);
     align-items: center;
+    margin: 10px 10px;
 }
 
+/* value radio buttons */
+.radio-buttons{
+  
+}
 
 
 
