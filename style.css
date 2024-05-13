@@ -19,6 +19,15 @@ p{
     margin-left:1rem;
 }
 
+.button-white{
+    background-color:#fff;
+    color: black;
+    border: solid black;
+    margin-left:1rem;
+}
+
+
+
 .button-jumbo{
     background-color:#0060ff;
     color: white;
