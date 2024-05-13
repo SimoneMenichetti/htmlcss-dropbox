@@ -10,6 +10,8 @@ p{
    margin-top: 20px;
 }
 
+
+
 .flex{
     display: flex;
 }
@@ -205,8 +207,15 @@ header{
 
 .container-column > h2{
  margin-top:50px;
-
+ margin-bottom: 50px;
+ text-align: left;
 }
+ .radio-buttons{
+    text-align: left;
+    margin-bottom: 20px;
+ }
+
+
 .column-big{
    display: flex;
    justify-content: center;
@@ -216,10 +225,19 @@ header{
  .column {
     
     width: calc(100% / 3);
-    align-items: baseline;
+    flex: 1; /* Fai espandere le colonne in modo uniforme */
+    padding: 0 20px; /* Aggiungi spazio orizzontale ai bordi della colonna */
     margin: 10px 10px;
     text-align: left;
     border: solid black 1px;
+}  
+
+.column ul {
+        padding: 0; 
+      }
+      
+.column li{
+    padding: 10px 0;
 }
 
                 /* value radio buttons da inserire all active cambio tonalita blu*/
@@ -335,6 +353,17 @@ footer{
   }
 
 
+/* color */
+ .fa-check{
+    color: #0060ff;
+}
+
+.sold{
+    text-decoration-line: underline;
+}
+
+
+  
 
 
 
