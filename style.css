@@ -288,6 +288,13 @@ header{
     width: calc(16,66% - 10px); 
 }
 
+.col-c h2 {
+    margin-bottom: 30px;
+   text-align: left;
+}
+
+
+
 
         /* BIG SECTION */
     /* sezione big container */
@@ -295,6 +302,7 @@ header{
     .flex-big {
         display: flex;
         justify-content: space-between; 
+        margin-top: 50px;
       }
       
       .left-container, .right-container {
@@ -374,12 +382,12 @@ footer{
   .bot-footer a{
     border-top: 1px solid lightgray;
     display: inline-block;
-    width: 5%;
+    width: 10%;
     padding: 50px 0;
     color: gray;
     text-decoration: none;
     text-align: center;
-    margin-left: 22em;
+    margin-left: 25px;
 }
 
 /* color */
@@ -391,6 +399,11 @@ footer{
     text-decoration-line: underline;
 }
 
+.link{
+    text-decoration: underline;
+    color: #0060ff;
+    font-size: 12px;
+}
 
   
 
