@@ -12,12 +12,15 @@ p{
 
 
 
+
 .flex{
     display: flex;
 }
 
 /* rules button general */
-
+.button{
+    cursor: pointer;
+}
 .button-blue{
     background-color:#0060ff;
     color: white;
@@ -25,19 +28,33 @@ p{
    
 }
 
+.button-blue:hover{
+    transition: 3s;
+    background-color: rgba(84, 158, 255, 0.598);
+    
+    
+}
+
 .button-acqua{
     background-color:#0060ff;
     color: white;
-    margin-top: 20px;
     font-size: 15px;
     margin-left:10rem;
+}
+
+.margin{
+    margin-top: 20px;
 }
 
 .button-white{
     background-color:#fff;
     color: black;
     margin-left:1rem;
-    border:  gray;
+    border: solid gray;
+}
+.button-white:hover{
+    transition: 1s;
+    background-color: #0062ff69;
 }
 
 .button-white-bottom{
@@ -56,6 +73,28 @@ p{
     background-color:#0060ff;
     color: white;
     padding:0.5rem;
+}
+
+.button-jumbo:hover{
+    transition: 3s;
+    background-color: rgba(84, 158, 255, 0.598);
+    border-radius: 50%;  
+}
+
+.dont{
+    display: flex;
+    text-align: center;
+    width:60%;
+    margin-top: 20px;
+    background-color: none;
+    transition: 2s;
+    padding:0.5rem;
+}
+
+.dont:hover{
+    background-color: lightgray;
+    border-radius: 55%;
+    
 }
 
 /* general rules for fix header */
@@ -94,6 +133,11 @@ header{
    display: flex;
     align-items: center;
     font-size: 12px;
+}
+
+#topnav a:hover{
+    transition: 1s;
+    background-color: #0062ff69;
 }
 
 .header-logo {
@@ -301,7 +345,7 @@ header{
 
     .flex-big {
         display: flex;
-        justify-content: space-between; 
+        justify-content:space-between; 
         margin-top: 50px;
       }
       
@@ -315,22 +359,24 @@ header{
       }
       
       .square {
-       min-height: 150px;
-       min-width: 150px;
+       max-height: auto;
+       max-width: 100%;
         background-color: #ccc;
         margin: 5px;
       }
       
       .big {
-        width: 300px;
-        height: 300px;
+        width: 300px; 
+        height: 200px; 
+        border: 1px solid #000; 
+        overflow: hidden; 
       }
 
-      .square img{
+     
         
-        max-width: 100%;
-        max-height: 100%;
-      }
+          
+       
+       
       
   
 /* sezione inizia la tua prova gratuita */
