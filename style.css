@@ -326,6 +326,22 @@ header{
 }
 
 /* inizio struttura footer */
+.footer {
+    display: flex;
+    justify-content: space-between; /* Allinea le colonne agli estremi del footer */
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .column {
+    flex: 1; /* Fai espandere le colonne in modo uniforme */
+  }
+  
+  h3 {
+    margin: 0; /* Rimuovi il margine predefinito dai titoli */
+  }
+
 
 
 
