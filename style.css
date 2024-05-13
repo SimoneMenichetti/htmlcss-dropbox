@@ -10,6 +10,10 @@ p{
    margin-top: 20px;
 }
 
+.flex{
+    display: flex;
+}
+
 /* rules button general */
 
 .button-blue{
@@ -24,6 +28,17 @@ p{
     color: black;
     border: solid black;
     margin-left:1rem;
+}
+
+.button-white-bottom{
+   
+    text-decoration: none;
+    background-color: white;
+    display: inline-block;
+    margin-top: 110px;
+    padding: 10px 0;
+    font-size: 1.1rem;
+   
 }
 
 
@@ -133,9 +148,10 @@ header{
 
 }
 
+
+
 .row  {
     display: flex;
-    justify-content: baseline;
     justify-content: space-between;
     }
 
@@ -212,9 +228,7 @@ header{
 }
 
                 /* value radio buttons da inserire all active cambio tonalita blu*/
-                .flex{
-                    display: flex;
-                }
+                
 
     /* sezione enterprise dopo colonne prezzi e mensili */
 
@@ -287,6 +301,32 @@ header{
       }
       
   
+/* sezione inizia la tua prova gratuita */
+
+.txt-red-color{
+    color: #61082B;
+    
+}
+
+.question p{
+    margin: 25px 0;
+    font-weight: bold;
+}
+.question hr{
+    border: 0.2px solid rgb(235, 235, 235);
+}
+.question h1{
+    margin-bottom: 50px;
+}
+.question p::after{
+    content: "\f078";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    padding-left: 500px;
+}
+
+/* inizio struttura footer */
+
 
 
 
