@@ -22,13 +22,22 @@ p{
     background-color:#0060ff;
     color: white;
     padding:0.5rem;
-    margin-left:1rem;
+   
+}
+
+.button-acqua{
+    background-color:#0060ff;
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left:10rem;
 }
 
 .button-white{
     background-color:#fff;
     color: black;
     margin-left:1rem;
+    border: solid gray;
 }
 
 .button-white-bottom{
@@ -41,8 +50,6 @@ p{
     font-size: 1.1rem;
    
 }
-
-
 
 .button-jumbo{
     background-color:#0060ff;
