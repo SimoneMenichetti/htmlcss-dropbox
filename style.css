@@ -37,7 +37,7 @@ p{
     background-color:#fff;
     color: black;
     margin-left:1rem;
-    border: solid gray;
+    border:  gray;
 }
 
 .button-white-bottom{
@@ -46,8 +46,9 @@ p{
     background-color: white;
     display: inline-block;
     margin-top: 110px;
-    padding: 10px 0;
+    padding: 10px 10px;
     font-size: 1.1rem;
+    border: solid rgba(128, 128, 128, 0.512);
    
 }
 
@@ -143,16 +144,19 @@ header{
 
 }
 
+.scroll-to-section {
+    cursor: pointer;
+    display: block;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    margin-top: 130px;
+  }
+
 .container{
     margin: auto;
     max-width: 1200px;
    
-}
-
-.container-big{
-    margin: auto;
-    max-width: 1400px;
-    
 }
 
 .container h2{
@@ -217,7 +221,7 @@ header{
  margin-bottom: 50px;
  text-align: left;
 }
- .radio-buttons{
+ #radio-buttons{
     text-align: left;
     margin-bottom: 20px;
  }
@@ -325,6 +329,7 @@ header{
 
 .txt-red-color{
     color: #61082B;
+    margin-bottom: 100px;
     
 }
 
@@ -352,13 +357,30 @@ footer{
 }
   
   .column {
-    flex: 1; 
+    flex: 1;
+    
   }
   
   h3 {
     margin: 0; 
   }
 
+  .column  li{
+    display: inline-block;
+    font-size: 10px;
+    
+  }
+
+  .bot-footer a{
+    border-top: 1px solid lightgray;
+    display: inline-block;
+    width: 5%;
+    padding: 50px 0;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 22em;
+}
 
 /* color */
  .fa-check{
