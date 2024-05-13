@@ -212,12 +212,19 @@ header{
     .flex{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
         justify-content: center;
+        align-content: space-between;
+    }
+
+   .container h2{
+        text-align: center;
+
     }
 
     /* <!--Sezione Dropbox Business  --> */
     .item {
-        width: calc(100% / 3 - 20px); /* Utilizzo calc() per dividere lo spazio su tre colonne */
+        width: calc(33.33% - 20px); /* Utilizzo calc() per dividere lo spazio su tre colonne */
         margin: 10px;
         text-align: center;
       }
