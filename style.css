@@ -26,7 +26,6 @@ p{
 .button-white{
     background-color:#fff;
     color: black;
-    border: solid black;
     margin-left:1rem;
 }
 
@@ -138,8 +137,13 @@ header{
 .container{
     margin: auto;
     max-width: 1200px;
-    /* debug */
-    border: solid black;
+   
+}
+
+.container-big{
+    margin: auto;
+    max-width: 1400px;
+    
 }
 
 .container h2{
@@ -176,14 +180,11 @@ header{
 
       /* debug */
    
-      border: solid rgb(42, 9, 126);
     }
 .col-b{
      width: calc((100% / 3)*2);
 
-     /* debug */
    
-    border: solid black;
    
 }
 
@@ -198,9 +199,6 @@ header{
     justify-content:  space-between;
     flex-wrap: wrap;
     font-size: 12px;
-    /* debug */
-    background-color: rgb(9, 181, 49);
-    
     
 }
 
@@ -221,10 +219,7 @@ header{
     align-items: baseline;
     margin: 10px 10px;
     text-align: left;
-    /* dbug */
-    background-color: rgb(6, 93, 60);
-    border: white 1px dotted;
-    
+    border: solid black 1px;
 }
 
                 /* value radio buttons da inserire all active cambio tonalita blu*/
@@ -326,20 +321,17 @@ header{
 }
 
 /* inizio struttura footer */
-.footer {
-    display: flex;
-    justify-content: space-between; /* Allinea le colonne agli estremi del footer */
+footer{
     background-color: black;
     color: #fff;
-    padding: 20px;
-  }
+}
   
   .column {
-    flex: 1; /* Fai espandere le colonne in modo uniforme */
+    flex: 1; 
   }
   
   h3 {
-    margin: 0; /* Rimuovi il margine predefinito dai titoli */
+    margin: 0; 
   }
 
 
